@@ -1,0 +1,25 @@
+Makro dla bufferow (w grze):
+
+/run a, b, c, d, e=UnitBuff,TargetUnit,UnitName, UseAction, GetRaidMember
+/run bol = 0
+/wait 0.5
+/run if e(4) ~= nil then b("raid4") i=1 while a("target",i) ~= nil do nn,__,__,ii = a("target",i) if ii==500673 then bol=1 break end i = i+1 end end if bol==0 and c("target")==e(4) then d(10) end
+/wait 1
+/run bol = 0
+/run if e(5) ~= nil then b("raid5") i=1 while a("target",i) ~= nil do nn,__,__,ii = a("target",i) if ii==500673 then bol=1 break end i = i+1 end end if bol==0 and c("target")==e(5) then d(10) end
+/wait 1
+/run bol = 0
+/run if e(6) ~= nil then b("raid6") i=1 while a("target",i) ~= nil do nn,__,__,ii = a("target",i) if ii==500673 then bol=1 break end i = i+1 end end if bol==0 and c("target")==e(6) then d(10) end
+/wait 0.25
+
+Gdzie ii == jakies_id_skilla
+jakies_id_skilla - tu wrzucacie uzywany przez Was buff postaci
+
+Święta Ochrona id: 500673
+Przyjęcie Ducha Wody id: 501778
+Tajemnicza Zwinność id: 505165
+Esencja Magii id: 501962
+Ulepszona Magiczna Ochrona id: 501877
+Wzmocniony Atak id: 500940
+Błogosławieństwo Dziczy id: 620454
+Przebudzenie Dzikości id: 505157
