@@ -5,7 +5,7 @@
   
   Wrzucacie to w nowe makro w grze (potrzebujecie addona ExtendedMacroIcons zainstalowanego zeby zmiescila sie ta ilosc znakow), po skopiowaniu makra w grze trzeba sprawdzic czy we fragmentach skopiowanego makra: nn,__,__,ii skopiowaly sie znaki podlogi ( _ ), jesli nie to trzeba je koniecznie wstawic.
   
-  KONIECZNIE trzeba ustawic tez na pasku akcji buff, ktorego checie uzywac pod klawiszem 0. Jesli chcecie ustawic skill na innym miejscu niz 0, trzeba sobie samemu policzyc miejsce na pasku akcji i zmienic cyfre przy literze d na ta nasza policzona. Czyli np tam gdzie jest d(10) w makrze, zmieniamy na d(35) jesli skill jest w okienku paska akcji na pozycji 35.
+  KONIECZNIE trzeba ustawic tez na pasku akcji buff, ktorego checie uzywac pod klawiszem 0. Jesli chcecie ustawic skill na innym miejscu niz 0, trzeba sobie samemu policzyc miejsce na pasku akcji i zmienic cyfre przy literze d (we wszystkich trzech miejscach) na ta nasza policzona. Czyli np tam gdzie jest d(10) w makrze, zmieniamy na d(35) jesli skill jest w okienku paska akcji na pozycji 35.
   
   To makro dziala tylko dla osob w raidzie na miejsach 4, 5, 6. Pierwsze 3 miejsca i tak sa zajete przez w/p, d/wd, p/s (poniewaz musza byc w tym samym party zeby rzucic komus buffa), wiec dlatego buffowane sa tylko pozostale 3 miejsca i tylko 3 osoby na raz moga byc buffowane. Moze to kiedys zmienie/poprawie/wymysle cos lepszego, ale poki co "jes jak jes". Pamietac nalezy ze osoba majaca juz buffy, ktore chcemy rzucic (nawet jesli ich czas trwania dobiega konca!), nie dostanie ich - czyli musi skasowac stare calkowicie, zeby otrzymac nowe.
   
