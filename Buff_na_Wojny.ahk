@@ -10,5 +10,6 @@ Loop, 7000
 	ControlSend,, {F1}, ahk_id %IDs4%
 	ControlSend,, {F1}, ahk_id %IDs5%
 	Sleep, 3000
+	; zeby zakomentowac niepotrzebne linie kodu uzywacie srednika
 }
 return
