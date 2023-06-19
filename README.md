@@ -11,11 +11,13 @@
   
   Najlepiej przetesowac sobie makro w grze czy dziala, stworz sobie grupe raidu, umiesc alty na odpowiednich pozycjach, a osoby/osobe, ktore chcemy zbuffowac na miejscu 4, 5 lub 6 (najlepiej sprawdzic wszystkie trzy pozycje). Nastepnie klikamy raz makro zeby sprawdzic czy poprawnie rzuca i sprawdza buffy w party. Trzeba pamietac zeby zamknac klienta roma i nie dostac crasha w celu zapisania makr na postaci :)
   
-2.
-3. Zaczynamy od instalacji AHK: https://www.autohotkey.com/
-4. Na wszystkich altach wrzucamy makro do buffów, zmieniając tylko odpowiednio ID używanego buffa
-5. Nastepnie pobieramy skrypt AutoBuff z githuba
-6. Włączamy wszystkie clienty przed uruchomieniem skryptu autobuffa
-7. Po zalogowaniu altow ustawiamy party i uruchamiamy skrypt
-8. Odswiezamy wszystkie okna clienta klikajac w nie po kolei
-9. U mnie dziala :f
+2. Teraz pobieramy i instalujemy AHK ze strony: https://www.autohotkey.com/
+   Po instalacji ahk klikamy "Compile", wyskoczy okno ahk informujace o tym ze ahk2exe nie jest zainstalowany i zapyta nas o to czy zainstalowac. Klikamy OK i czekamy na instalacje. Po instalacji wyskoczy dodatkowo okno, ktore zamykamy.
+   
+   Teraz tworzymy w jakims folderze latwo dostepnym lub na pulpicie (bo chcemy to latwo znalezc i uzyc zazwyczaj) nowy AutoHotkey script, klikamy ppm na pulpit->nowy->autohotkey script, wybieramy opcje empty, nastepnie wybieramy edytor - najczesciej bedzie to zwykly notatnik lub jesli mamy zainstalowany notepad++ to go wskazujemy jako domyslny edytor skryptow. Teraz otwiera sie puste okno notatnika/notepada++.
+   
+   Wchodzimy na moim githubie w plik Buff_na_wojny.ahk, kopiujemy z niego wszystkie linie kodu i wklejamy do naszego otwartego okna notatnika z naszym skryptem, a na koniec go zapisujemy.
+
+4.
+   
+U mnie dziala :f
